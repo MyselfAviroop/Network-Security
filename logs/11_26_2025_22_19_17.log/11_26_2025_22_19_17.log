@@ -1,0 +1,16 @@
+[ 2025-11-26 22:19:21,683 ] 35 root - INFO - Fetched 11055 rows and 32 columns from MongoDB.
+[ 2025-11-26 22:19:23,660 ] 55 root - INFO - Exported data to feature store at Artifacts\11_26_2025_22_19_17\data_ingestion\feature_store\phisingData.csv
+[ 2025-11-26 22:19:23,662 ] 70 root - INFO - Successfully split the data into train and test sets.
+[ 2025-11-26 22:19:23,711 ] 80 root - INFO - Train data saved at Artifacts\11_26_2025_22_19_17\data_ingestion\ingested\train.csv
+[ 2025-11-26 22:19:23,711 ] 81 root - INFO - Test data saved at Artifacts\11_26_2025_22_19_17\data_ingestion\ingested\test.csv
+[ 2025-11-26 22:19:23,712 ] 109 root - INFO - Data Ingestion completed successfully: DataIngestionArtifact(train_file_path='Artifacts\\11_26_2025_22_19_17\\data_ingestion\\ingested\\train.csv', test_file_path='Artifacts\\11_26_2025_22_19_17\\data_ingestion\\ingested\\test.csv')
+[ 2025-11-26 22:19:23,774 ] 34 root - INFO - Required number of columns: 31
+[ 2025-11-26 22:19:23,774 ] 35 root - INFO - DataFrame has columns: 31
+[ 2025-11-26 22:19:23,774 ] 34 root - INFO - Required number of columns: 31
+[ 2025-11-26 22:19:23,774 ] 35 root - INFO - DataFrame has columns: 31
+[ 2025-11-26 22:19:23,815 ] 57 root - INFO - Starting Data Transformation...
+[ 2025-11-26 22:19:23,874 ] 47 root - INFO - Creating KNN Imputer...
+[ 2025-11-26 22:19:23,875 ] 50 root - INFO - KNN Imputer pipeline created.
+[ 2025-11-26 22:19:23,893 ] 111 root - INFO - Data Transformation Artifact: DataTransformationArtifact(transformed_train_file_path='Artifacts\\11_26_2025_22_19_17\\data_transformation\\transformed\\train.npy', transformed_test_file_path='Artifacts\\11_26_2025_22_19_17\\data_transformation\\transformed\\test.npy', transformed_object_file_path='Artifacts\\11_26_2025_22_19_17\\data_transformation\\transformed_object\\preprocessing.pkl')
+[ 2025-11-26 22:19:23,894 ] 33 root - INFO - Model Trainer initialized.
+[ 2025-11-26 22:19:34,588 ] 73 root - INFO - Best model selected: RandomForest

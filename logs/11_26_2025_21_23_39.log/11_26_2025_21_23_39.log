@@ -1,0 +1,6 @@
+[ 2025-11-26 21:23:43,416 ] 35 root - INFO - Fetched 11055 rows and 32 columns from MongoDB.
+[ 2025-11-26 21:23:43,460 ] 54 root - INFO - Exported data to feature store at Artifacts\11_26_2025_21_23_39\data_ingestion\feature_store\phisingData.csv
+[ 2025-11-26 21:23:43,463 ] 69 root - INFO - Successfully split the data into train and test sets.
+[ 2025-11-26 21:23:43,504 ] 79 root - INFO - Train data saved at Artifacts\11_26_2025_21_23_39\data_ingestion\ingested\train.csv
+[ 2025-11-26 21:23:43,504 ] 80 root - INFO - Test data saved at Artifacts\11_26_2025_21_23_39\data_ingestion\ingested\test.csv
+[ 2025-11-26 21:23:43,506 ] 108 root - INFO - Data Ingestion completed successfully: DataIngestionArtifact(train_file_path='Artifacts\\11_26_2025_21_23_39\\data_ingestion\\ingested\\train.csv', test_file_path='Artifacts\\11_26_2025_21_23_39\\data_ingestion\\ingested\\test.csv')
