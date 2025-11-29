@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/ghosh/Desktop/MAIN%20ML%20PROJECTS/Network%20Security/mlruns/0/models/m-c177876387ae4420a392050fed9a3051/artifacts
+creation_timestamp: 1764398360660
+experiment_id: '0'
+last_updated_timestamp: 1764398365278
+model_id: m-c177876387ae4420a392050fed9a3051
+model_type: null
+name: model
+source_run_id: 18e4404da1f54dab8318bd0a3e652d35
+status: 2
+status_message: null
